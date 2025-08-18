@@ -7,11 +7,11 @@ function App() {
 
 
   return (
-    <div className='min-h-screen overflow-hidden  text-white'>
+    <div className='min-h-screen overflow-hidden bg-black  text-white'>
       
         <Navbar />
    
-      <main>
+      <main className='my-4'>
         <Outlet />
       </main>
 
