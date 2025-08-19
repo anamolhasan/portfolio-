@@ -1,12 +1,53 @@
-# React + Vite
+# portfolio-
+![portfolio-](./src/assets/github-cover.webp)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+To get started with this project, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/anamolhasan/portfolio-.git
+    cd portfolio-
+    ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies:**
+    ```sh
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Start the development server:**
+    ```sh
+    npm run dev
+    ```
+
+## Technologies Used
+
+- **Vite** - Next Generation Frontend Tooling
+- **React** - A JavaScript library for building user interfaces
+- **Tailwind CSS** - A utility-first CSS framework
+- **Framer Motion** - A production-ready motion library for React
+
+## Project Structure
+
+```plaintext
+├── public
+│   └── ...
+├── src
+│   ├── assets
+│   ├── components
+│   ├── pages
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+```
+
+## License
+
+This project is licensed under the MIT License.
